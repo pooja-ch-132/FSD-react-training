@@ -1,0 +1,103 @@
+Single page application is a modern application.
+
+-React is mainly uses the Single page application.
+
+What is Virtual DOM?
+-Virtual DOM is a virtual representation of a UI which is kept in a memory lsater synced with Real DOM with the help of library called as ReactDOM.
+
+-Updation of real dom with virtual dom.
+-The entire process of updating the realDOM with the help of VDOM is called as "Reconcilation".
+
+JSX:-
+-JSX stands for Javascript and XML.
+-JSX is a javascript syntax extension used to create HTML-like markup in the react.
+-Actual way to create a element in react is by using a method called as,
+-React.createElement("tagname",{property:"value"}/null,content/children)
+let ele = React.createElement("div",{className:"App"},
+    React.createElement("h1",null,"Header")
+  );
+
+-JSX is not a part of react but it is recomended to use in react.
+
+Rules of JSX:-
+1.every element irrespective of paired/unpaired tag both must be closed.
+ex:- <h1></h1>  <input/>
+2.more than one jsx element is used then they must wrapped with one parent element.
+ex:- <div>
+<h1></h1>
+<p></p>
+</div>
+
+JSX expressions:-
+-JSX expression s used to call the variable, mathematical expression inside the element.
+syntax:- <h1>{variable/expression}</h1>
+
+components:-
+
+-components are the files/modules which consists of js related logics which can be reuse.
+
+components are divided into two types:-
+1.class based components(CBC)
+2.functional based components(FBC)
+
+1.class based components(CBC):-
+-CBC is similar to javascript es6 class.
+-CBC are "statefull" component because of default state object present inside the class.
+syntax:-
+class Person{
+    constructor(name, age){
+        this.name=name;
+        this.age=age;
+    }
+}
+
+class Child extends Person{
+    constructor(name, age, city){
+        super(name,age);
+        this.city=city;
+    }
+}
+
+syntax:-
+class App extends from React.Components{
+    render(){
+        return(
+            //JSX
+        )
+    }
+}
+export default App;
+
+
+2.functional based components(FBC):-
+-FBC  are similar to JSX function.
+-FBC are "stateless" because there is no state object untill react v16.8.
+
+syntax:-  function App(){
+    return(
+
+    )
+}
+export default App;
+
+(or)
+
+const App=()=>{
+    return(
+        //JSX
+    )
+}
+export default App;
+
+Note:- while creating a react component the names must be started with capital letters.
+-extention of a component file must be .jsx/.js
+-How to call a component.
+<App> / <App></App>
+
+Component composition:-
+-Component composition is used to combine multiple components into single application.
+
+Props:-
+-props is nothing but a properties similar to html attributes.
+-props is an object.
+-props is an object used to exchange information/data from parent component to child component.
