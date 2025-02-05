@@ -84,15 +84,51 @@
 // export default App;
 
 //!props
-import React, { Component } from "react";
-import CBCPropEx from "./propsex/CBCPropEx";
+// import React, { Component } from "react";
+// import CBCPropEx from "./propsex/CBCPropEx";
+// import { FBCPropEx } from "./propsex/FBCPropEx";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <CBCPropEx username="Pooja" />
-      </div>
-    );
-  }
-}
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         {/* <CBCPropEx
+//           username="Pooja"
+//           age={20}
+//           hobbies={["Playing", "Reading books", "stock", "Movies"]}
+//           address={{ city: "Suryapet", area: "PSR Centre" }}
+//           sendFun={function () {
+//             alert("hi i am pooja");
+//           }}
+//         />*/}
+//         <FBCPropEx
+//           username="Abinaya"
+//           isMarried={true}
+//           hobbies={["Chatting", "Reading", "Eating", "Sleeping"]}
+//         />
+//       </div>
+//     );
+//   }
+// }
+
+//!props children
+import React from "react";
+import PropChildEx from "./propsex/PropChildEx";
+import SubChild from "./SubChild";
+import Child1 from "./Child1";
+
+const App = () => {
+  return (
+    <div>
+      App
+      {/*App
+      <PropChildEx num={1000}>
+        <h1>this is data coming from props children</h1>
+        <SubChild />
+      </PropChildEx>*/}
+      <Child1 university="Malla Reddy University" />
+    </div>
+  );
+};
+
+export default App;
