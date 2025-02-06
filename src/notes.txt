@@ -100,8 +100,38 @@ Component composition:-
 Props:-
 -props is nothing but a properties similar to html attributes.
 -props is an object.
+-props is an immutable object.
 -props is an object used to exchange information/data from parent component to child component.
 
 props.children:-
 
-props drilling
+props drilling:-it is used to pass the data down to child.
+
+
+state:-
+-state is an mutable object which is used to store / isolate the data inside the component.
+
+class component:-
+-class component is having the state object by default.
+
+syntax:- constructor(){
+    super();
+    this.state={
+        users:["vdfv","fre"],
+        num:100
+    }
+}
+
+Functional components:-
+-by default functional component stateless because there is no state object.
+-in react v16.8 , they introduce a concept called as hooks.
+syntax:-  const[state, setState] = useState(initialValue);
+state - it will store initial value.
+setState - it is used to 
+
+-Hooks:- Hooks is a functions which implement all the features f class component into functional component.
+
+Basics hook are:-
+1.useState()
+2.useEffect()
+3.useContext()

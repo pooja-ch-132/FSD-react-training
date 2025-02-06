@@ -113,20 +113,23 @@
 
 //!props children
 import React from "react";
-import PropChildEx from "./propsex/PropChildEx";
-import SubChild from "./SubChild";
-import Child1 from "./Child1";
+//import PropChildEx from "./propsex/PropChildEx";
+//import SubChild from "./SubChild";
+//import Child1 from "./Child1";
+import CBCStateEx from "./stateexample/CBCStateEx";
+import FBCStateEx from "./stateexample/FBCStateEx";
 
 const App = () => {
   return (
     <div>
-      App
       {/*App
       <PropChildEx num={1000}>
         <h1>this is data coming from props children</h1>
         <SubChild />
-      </PropChildEx>*/}
+      </PropChildEx>
       <Child1 university="Malla Reddy University" />
+      <CBCStateEx />*/}
+      <FBCStateEx />
     </div>
   );
 };
