@@ -1,5 +1,4 @@
 import React from "react";
-
 const FBCStateEx = () => {
   //   const data = React.useState("Hi");
   //   console.log(data);

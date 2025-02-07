@@ -60,6 +60,12 @@ class Child extends Person{
 
 syntax:-
 class App extends from React.Components{
+    constructor{
+    super()
+    state:{
+
+    }
+    }
     render(){
         return(
             //JSX

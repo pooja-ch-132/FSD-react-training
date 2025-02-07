@@ -118,7 +118,8 @@ import React from "react";
 //import Child1 from "./Child1";
 import CBCStateEx from "./stateexample/CBCStateEx";
 import FBCStateEx from "./stateexample/FBCStateEx";
-
+import FunctionalComponent from "./components/FunctionalComponent";
+import "./components/Styles.css";
 const App = () => {
   return (
     <div>
@@ -128,8 +129,9 @@ const App = () => {
         <SubChild />
       </PropChildEx>
       <Child1 university="Malla Reddy University" />
-      <CBCStateEx />*/}
-      <FBCStateEx />
+      <CBCStateEx />
+      <FBCStateEx />*/}
+      <FunctionalComponent clgName="mru" city="hyd" />
     </div>
   );
 };
