@@ -1,0 +1,12 @@
+.msg1 {
+  background-color: cyan;
+  color: green;
+}
+.msg2 {
+  background-color: red;
+  color: black;
+}
+
+body {
+  text-align: center;
+}

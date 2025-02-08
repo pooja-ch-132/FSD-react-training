@@ -141,3 +141,24 @@ Basics hook are:-
 1.useState()
 2.useEffect()
 3.useContext()
+
+
+Controlled Components or Elements
+Form Handling:
+<form action='myscript.js">
+</form>
+
+
+
+React Virtual vs Real DOM, Library vs Framework
+Dom manipulation
+React vs JS
+Library vs Framework
+Use of Components
+Functional vs Class
+State
+Props
+UseState
+Applying styles to components
+Controlled Form Elements
+

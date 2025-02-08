@@ -120,6 +120,8 @@ import CBCStateEx from "./stateexample/CBCStateEx";
 import FBCStateEx from "./stateexample/FBCStateEx";
 import FunctionalComponent from "./components/FunctionalComponent";
 import "./components/Styles.css";
+import ClassComponent from "./components/ClassComponent";
+import MyForm from "./MyForm";
 const App = () => {
   return (
     <div>
@@ -130,8 +132,10 @@ const App = () => {
       </PropChildEx>
       <Child1 university="Malla Reddy University" />
       <CBCStateEx />
-      <FBCStateEx />*/}
+      <FBCStateEx />
       <FunctionalComponent clgName="mru" city="hyd" />
+      <ClassComponent />*/}
+      <MyForm />
     </div>
   );
 };
