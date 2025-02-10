@@ -138,10 +138,11 @@ setState - it is used to
 -Hooks:- Hooks is a functions which implement all the features f class component into functional component.
 
 Basics hook are:-
-1.useState()
-2.useEffect()
+1.useState():-it is used multiple times in a file.
+2.useEffect():-it is used only once in a file.
 3.useContext()
 
+8/02/2025  Saturday  12:00 pm(Roshith sir)
 
 Controlled Components or Elements
 Form Handling:
@@ -161,4 +162,20 @@ Props
 UseState
 Applying styles to components
 Controlled Form Elements
+
+10/02/2025  Monday  12:00 pm(Harish sir)
+
+2.useEffect():-
+-it allows developers to make necessary changes / side effects inside the component.
+
+syntax:-  useEffect(callbackfn, dependency);
+
+list & keys:- every listed items from the array should have a unique key prop value so that it can track all the changes done in the lists.
+
+React Fragments:-
+- this will act as a parent element for the jsx elements and we can give key prop for this.
+React Fragments are 2 types.
+1.Empty Fragments(<></>):- it will just act as a parent but we cannot give key prop.
+2.<React Fragments></React Fragments>:- it will act as parent and we can give key prop too.
+
 

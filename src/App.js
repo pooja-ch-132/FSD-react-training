@@ -122,6 +122,7 @@ import FunctionalComponent from "./components/FunctionalComponent";
 import "./components/Styles.css";
 import ClassComponent from "./components/ClassComponent";
 import MyForm from "./MyForm";
+import UseEffectEx from "./hookexamples/UseEffectEx";
 const App = () => {
   return (
     <div>
@@ -134,8 +135,9 @@ const App = () => {
       <CBCStateEx />
       <FBCStateEx />
       <FunctionalComponent clgName="mru" city="hyd" />
-      <ClassComponent />*/}
-      <MyForm />
+      <ClassComponent />
+      <MyForm />*/}
+      <UseEffectEx />
     </div>
   );
 };
