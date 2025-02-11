@@ -123,6 +123,10 @@ import "./components/Styles.css";
 import ClassComponent from "./components/ClassComponent";
 import MyForm from "./MyForm";
 import UseEffectEx from "./hookexamples/UseEffectEx";
+import RefExamples from "./hookexamples/RefExamples";
+import ContextC1 from "./hookexamples/ContextC1";
+import ContextAPI from "./hookexamples/ContextAPI";
+
 const App = () => {
   return (
     <div>
@@ -136,8 +140,12 @@ const App = () => {
       <FBCStateEx />
       <FunctionalComponent clgName="mru" city="hyd" />
       <ClassComponent />
-      <MyForm />*/}
+      <MyForm />
       <UseEffectEx />
+      <RefExamples />*/}
+      <ContextAPI>
+        <ContextC1 />
+      </ContextAPI>
     </div>
   );
 };

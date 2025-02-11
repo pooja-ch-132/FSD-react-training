@@ -178,4 +178,11 @@ React Fragments are 2 types.
 1.Empty Fragments(<></>):- it will just act as a parent but we cannot give key prop.
 2.<React Fragments></React Fragments>:- it will act as parent and we can give key prop too.
 
+3.useRef():-
+-ref is used to target native/real DOM elements.
+-easier to work with functions but it is time consuming and performance will be slow.
+
+4.useContext():-
+-to avoid props drilling we use context api.
+-this hook is used to pass the data directly from parent ot child component.
 
