@@ -9,3 +9,27 @@ Routing in react:-
 7- Major version
 1- Minor version
 5- Path version
+
+CRUD operations
+
+C- create - POST()
+R- read - GET()
+U- update -PUT()
+D- delete -DELETE()
+
+https:- hyper text transfer protocol secured
+http, smtp, ftp, tcp, ip etc.....
+
+-json server
+-npm install json-server-g
+or
+-npm install json-server
+
+
+-axios library to fetch the data.
+-npm install axios.
+
+-Server is not a database.
+db>json-server --watch users.json --port=8000
+-For notifications install toastify
+-npm i react-toastify
