@@ -31,3 +31,39 @@
 .menuBlock > ul > li > a:hover {
   color: dodgerblue;
 }
+
+.menuBlock > ul > li > a:focus {
+  color: dodgerblue;
+  font-weight: 500;
+}
+
+.genderGroup {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.genderOptions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.genderOptions input {
+  margin-left: 10px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
