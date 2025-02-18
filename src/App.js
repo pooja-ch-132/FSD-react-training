@@ -36,21 +36,14 @@
 // export default App;
 
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./crudcomponents/Home";
-import Create from "./crudcomponents/Create";
-import Edit from "./crudcomponents/Edit";
-import { ToastContainer } from "react-toastify";
+import CakeContainer from "./redux/CakeContainer";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 const App = () => {
   return (
-    <div>
-      <ToastContainer />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/create" element={<Create />} />
-        <Route path="/edit/:userId" element={<Edit />} />
-      </Routes>
-    </div>
+    <Provider store={store}>
+      <CakeContainer />
+    </Provider>
   );
 };
 
